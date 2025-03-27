@@ -62,6 +62,7 @@ Projektissa käytetään samoja teknologioita kuin kurssin aikana:
 | `time` | DateTime | Muutoksen ajankohta |
 
 ### Perustelut:
+Tehtävänantona oli, että on lohkoja joiden sisällä on antureita ja antureilla on tiettyjä toimintoja. Tällöin oli loogista:
 - **Lohkot (`blocks`) ja anturit (`sensors`) erillisinä**: Yksi lohko voi sisältää useita antureita.
 - **Lämpötilamittaukset (`temperature_readings`) erillisenä tauluna**: Mittaushistorian säilyttämistä varten.
 - **Tilamuutokset (`sensor_status`) erillisenä tauluna**: Anturin tilahistorian seuraamiseen.
